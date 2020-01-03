@@ -1,0 +1,60 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.ActMain">
+
+    <item
+        android:id="@+id/mnu_search"
+        android:title="@string/mnu_search"
+        android:icon="@drawable/search"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/mnu_bachup"
+        android:orderInCategory="100"
+        android:title="@string/mnu_backup"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mnu_backup_send"
+        android:orderInCategory="100"
+        android:title="@string/mnu_backup_send"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mnu_restore"
+        android:orderInCategory="100"
+        android:title="@string/mnu_restore"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mnu_bank_management"
+        android:orderInCategory="100"
+        android:title="@string/mnu_banks_management"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mnu_person_management"
+        android:orderInCategory="100"
+        android:title="@string/mnu_persons_management"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mnu_dell_all"
+        android:orderInCategory="100"
+        android:title="@string/mnu_dell_all"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mnu_download_source"
+        android:orderInCategory="100"
+        android:title="@string/mnu_download_source"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mnu_about"
+        android:orderInCategory="100"
+        android:title="@string/mnu_about"
+        app:showAsAction="never" />
+
+</menu>

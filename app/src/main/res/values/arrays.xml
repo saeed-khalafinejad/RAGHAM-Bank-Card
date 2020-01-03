@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="ArrEditDel">
+        <item>ویرایش</item>
+        <item>حذف</item>
+    </array>
+</resources>

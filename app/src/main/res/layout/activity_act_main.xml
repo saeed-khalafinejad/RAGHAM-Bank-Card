@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.ActMain">
+
+    <include layout="@layout/toolbar_lay"/>
+    <include layout="@layout/content_act_main" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0000"
+        android:padding="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="0dp"
+        android:layout_gravity="bottom|right">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@drawable/fab_add" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/lay_account_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0000"
+        android:padding="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="75dp"
+        android:layout_gravity="bottom|right"
+        android:visibility="gone">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_new_account_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/shaba" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#FF000000"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/textFontSize"
+            android:layout_toLeftOf="@+id/fab_new_account_no"
+            android:layout_centerVertical="true"
+            android:padding="3dp"
+            android:text="@string/new_account_no"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/lay_shaba_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0000"
+        android:padding="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="135dp"
+        android:layout_gravity="bottom|right"
+        android:visibility="gone">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_new_shaba_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/shaba" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#FF000000"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/textFontSize"
+            android:layout_toLeftOf="@+id/fab_new_shaba_no"
+            android:layout_centerVertical="true"
+            android:padding="3dp"
+            android:text="@string/new_shaba_no"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/lay_card_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0000"
+        android:padding="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="195dp"
+        android:layout_gravity="bottom|right"
+        android:visibility="gone">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_new_card_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:src="@drawable/card_bank" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#FF000000"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/textFontSize"
+            android:layout_toLeftOf="@+id/fab_new_card_no"
+            android:layout_centerVertical="true"
+            android:padding="3dp"
+            android:text="@string/new_card_no"/>
+
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

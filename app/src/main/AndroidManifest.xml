@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.kasabeh.raghamcardbank">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.ActMain"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.ActNewPerson"
+            android:label="@string/personInfo" />
+        <activity
+            android:name=".ui.ActEditPerson"
+            android:label="@string/personInfo" />
+        <activity
+            android:name=".ui.ActPersons"
+            android:label="@string/perons"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.ActBanks"
+            android:label="@string/banks"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.ActBanksSelection"
+            android:label="@string/banks"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.ActNewBank"
+            android:label="@string/bankInfo" />
+        <activity
+            android:name=".ui.ActEditBank"
+            android:label="@string/bankInfo" />
+        <activity
+            android:name=".ui.ActBankLogos"
+            android:label="@string/logo"
+            android:theme="@style/DlgActStyle" />
+        <activity
+            android:name=".ui.ActNewAccountNO"
+            android:label="@string/accountNO"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".ui.ActEditAccountNO"
+            android:label="@string/accountNO"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".ui.ActNewShabaNO"
+            android:label="@string/shabaNO"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".ui.ActEditShabaNO"
+            android:label="@string/shabaNO"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".ui.ActNewCardNO"
+            android:label="@string/cardNO"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".ui.ActEditCardNO"
+            android:label="@string/cardNO"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".ui.ActShareTxtCard"
+            android:label="@string/share"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".ui.ActShareImage"
+            android:label="@string/share"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".ui.ActShareTxt"
+            android:label="@string/share"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".ui.ActShareTxtShaba"
+            android:label="@string/share"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".ui.ActSourceCode"
+            android:label="@string/title_activity_act_source_code"/>
+
+        <activity android:name=".ui.ActAbout"/>
+
+        <activity android:name=".backup.ActSave"
+            android:label="@string/act_save_tlt"/>
+
+        <activity android:name=".backup.ActSelFolder"
+            android:label="@string/act_sel_folder_tlt"/>
+
+        <activity android:name=".backup.ActSaveSend"
+            android:label="@string/act_save_send_tlt"/>
+
+        <activity android:name=".backup.ActRestore"
+            android:label="@string/act_restore_tlt"/>
+
+        <activity android:name=".ui.ActDellALL"
+            android:label="@string/act_dell_all_tlt"/>
+
+    </application>
+
+</manifest>

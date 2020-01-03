@@ -1,0 +1,166 @@
+<resources>
+    <string name="app_name">کارت بانک رقم</string>
+    <string name="mnu_banks_management">مدیریت بانکها</string>
+    <string name="mnu_persons_management">مدیریت اشخاص</string>
+    <string name="wrongNO">عدد وارد شده صحیح نمیباشد</string>
+    <string name="error">خطا</string>
+    <string name="mnu_search">جستجو</string>
+    <string name="personInfo">مشخصات شخص</string>
+    <string name="personName">نام شخص</string>
+    <string name="OK">تایید</string>
+    <string name="errNoPersonName">نام شخص وارد نشده است</string>
+    <string name="personSaved">شخص ذخیره شد</string>
+    <string name="personRepeated">این شخص قبلا تعریف شده است</string>
+    <string name="perons">اشخاص</string>
+    <string name="mnu_new_person">ایجاد شخص</string>
+    <string name="Yes">بله</string>
+    <string name="No">خیر</string>
+    <string name="sureToDelPerson">آیا عمل حذف انجام شود؟\n*تمامی کارتهای مربوط به شخص نیز حذف خواهند شد*</string>
+    <string name="noBankName">نام بانک وارد نشده است</string>
+    <string name="mnu_new_bank">ایجاد بانک</string>
+    <string name="banks">بانکها</string>
+    <string name="bankInfo">مشخصات بانک</string>
+    <string name="bankName">نام بانک</string>
+    <string name="bank">بانک</string>
+    <string name="mnu_save">ذخیره</string>
+    <string name="logo">انتخاب لوگو</string>
+    <string name="bankRepeated">این بانک قبلا تعریف شده است</string>
+    <string name="bankSaved">بانک ذخیره شد</string>
+    <string name="sureToDelBank">آیا عمل حذف انجام شود؟\n*تمامی کارتهای مربوط به این بانک نیز حذف خواهند شد*</string>
+    <string name="accountNO">شماره حساب</string>
+    <string name="desc">توضیحات</string>
+    <string name="accountNOSaved">شماره حساب ذخیره شد</string>
+    <string name="selectAccountOwner">نام صاحب حساب را وارد کنید</string>
+    <string name="ownerName">نام صاحب حساب</string>
+    <string name="noAccountNum">شماره حساب وارد نشده است</string>
+    <string name="bnk_melli">ملی</string>
+    <string name="bnk_mellat">ملت</string>
+    <string name="bnk_shahr">شهر</string>
+    <string name="new_account_no">ثبت شماره حساب جدید</string>
+    <string name="new_shaba_no">ثبت شماره شبا جدید</string>
+    <string name="new_card_no">ثبت شماره کارت جدید</string>
+    <string name="shabaNO">شماره شبا</string>
+    <string name="IR">IR</string>
+    <string name="ShabaNOSaved">شماره شبا ذخیره شد</string>
+    <string name="cardNOSaved">شماره کارت ذخیره شد</string>
+    <string name="noShabaNum">شماره شبا وارد نشده</string>
+    <string name="wrongShabaNum">شماره شبا صحیح نمیباشد</string>
+    <string name="cardNO">شماره کارت</string>
+    <string name="CVV">شماره CVV</string>
+    <string name="expirationDate">تاریخ انقضاء</string>
+    <string name="noCardNum">شماره کارت وارد نشده</string>
+    <string name="wrongCardNum">شماره کارت صحیح نمیباشد</string>
+    <string name="wrongCVV">CVV صحیح نمیباشد</string>
+    <string name="edit">ویرایش</string>
+    <string name="del">حذف</string>
+    <string name="share">اشتراک گذاری</string>
+    <string name="empty_sms">متن پیام خالی است\nحداقل یکی از موارد را علامت بزنید</string>
+    <string name="share_txt">اشتراک گذاری متن</string>
+    <string name="share_img">اشتراک گذاری تصویر</string>
+    <string name="copy">کپی به حافظه</string>
+    <string name="owned_by">به نام</string>
+    <string name="copied">مشخصات به حافظه کپی شد</string>
+    <string name="sureToDel">آیا ردیف مورد نظر حذف شود؟</string>
+    <string name="mnu_download_source">سورس کد نرم افزار</string>
+    <string name="title_activity_act_source_code">سورس کد</string>
+    <string name="large_text">
+"نرم افزار «کارت بانک رقم» به صورت متن باز و تحت لیسانس "
+" GNU General Public "
+" منتشر شده است. این بدین مفهوم میباشد که سورس کد نرم افزار در اختیار سایرین نیز قرار میگیرد."
+" مهندسین کامپیوتر میتوانند سورس کد را دریافت نمایند و با اعمال تغییرات مورد نظر آنرا مجددا منتشر کنند، البته با"
+" این شرط که انتشار نرم افزار جدید نیز تحت همین لیسانس باشد. چنین حالتی را اصطلاحا Copyleft میگویند."
+"با استفاده از دکمه فوق، سورس کد نرم افزار و سایر مستندات آن، مانند نمودارهای UML و مدل داده ای، قابل دانلود میباشند."
+"\n\n"
+"نرم افزار «کارت بانک رقم» یکی از پروژه های متن باز گروه نرم افزاری حسابداری کسبه میباشد. لذا برخی از کدها و تکنیکهای بکار گرفته شده در نرم افزار رقم در پروژه های تجاری منتشر شده توسط تیم کسبه،"
+"مانند حسابداری جیبی کسبه، مورد استفاده قرار گرفته اند.\n\nدر حوزه نرم افزارهای تحت ویندوز نیز تیم کسبه پروژه متن باز «اعلان صوتی اعداد» را منتشر نموده است."
+"این پروژه اعداد را به تلفظ فارسی آنها "
+"تبدیل مینماید که کاربرد آن در رستوران ها جهت فراخوانی مشتری به کانتر میباشد.\n\n"
+"هدف تیم کسبه از انتشار این پروژه های متن باز، به اشتراک گذاری تجارب و آشنا کردن دانشجویان مهندسی نرم افزار با پروژه های عملی میباشد.\n\n"
+"جهت کسب اطلاعات بیشتر با ما در تماس باشید:\n"
+"kasabeh.org\n"
+"opensource.kasabeh.org\n"
+"info@kasabeh.org\n"
+"07132347329\n"
+"09164437598\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="download_source_code">دانلود سورس کد</string>
+    <string name="aboutDesc">نرم افزار «کارت بانک رقم» توسط گروه نرم افزاری کسبه به صورت متن باز تحت لیسانس GNU General Public منتشر شده است.\n\nگروه کسبه به صورت حرفه
+ای برروی توسعه نرم افزارهای مالی و حسابداری تحت ویندوز و تحت موبایل فعالیت مینماید. مجموعه نرم افزارهای حسابداری کسبه راهکارهای فوق العاده ای را، جهت مدیریت امور مالی بنگاههای اقتصادی، در
+اختیار کاربران قرار میدهند. فعالان اقتصادی در حوزه های مختلف مانند عمده فروشی و خرده فروشی، بازاریابی، رستوران ها و کافی شاپ ها، نمایندگی ها و کارگزاری های بیمه، آژانس های املاک و ... از جمله
+کاربران نرم افزار حسابداری کسبه میباشند.
+\n\n
+"جهت کسب اطلاعات بیشتر با ما در تماس باشید:\n"
+"kasabeh.org\n"
+"opensource.kasabeh.org\n"
+"info@kasabeh.org\n"
+"07132347329\n"
+"09164437598\n"
+    </string>
+    <string name="mnu_about">درباره</string>
+    <string name="version">نسخه</string>
+    <string name="saveDesc">مسیر ذخیره سازی به صورت ذیل می باشد:</string>
+    <string name="strChangePath">تغییر مسیر</string>
+    <string name="saveAction">ذخیره سازی</string>
+    <string name="strHintBackup">این قسمت جهت پشتیبان گیری از اطلاعات برروی گوشی موبایل طراحی شده است. علاوه براین، توصیه می نماییم از قابلیت ذخیره و ارسال نیز برای ارسال نسخه پشتیبان به ایمیل خود یا فضاهای ابری یا سایر دستگاهها استفاده نمایید.</string>
+    <string name="invalidPath">مسیر انتخاب شده قابل قبول نیست.\nامکان ایجاد فایل در این مسیر وجود ندارد.</string>
+    <string name="saveSucc">ذخیره سازی با موفقیت انجام شد</string>
+    <string name="saveUnsucc">خطا در ذخیره سازی\nامکان ایجاد فایل وجود ندارد</string>
+    <string name="act_save_tlt">ذخیره</string>
+    <string name="mnu_backup">ذخیره سازی</string>
+    <string name="noFileFound">فایلی یافت نشد</string>
+    <string name="noFileSel">هیچ فایلی انتخاب نشده است</string>
+    <string name="moreFileSel">بیش از یک فایل را انتخاب کرده اید</string>
+    <string name="loadSucc">بازیابی با موفقیت انجام شد</string>
+    <string name="loadUnsucc">خطا در بازیابی</string>
+    <string name="strBackupLimit">با توجه به محدودیت اغلب دستگاههای اندروید امکان تغییر مسیر به حافظه خارجی وجود ندارد. لذا بهترین روش پشتیبان گیری استفاده از گزینه ذخیره و ارسال و انتقال نسخه پشتیبان به خارج از گوشی میباشد.</string>
+    <string name="strSelTopFolder">انتخاب مسیر فوق</string>
+    <string name="act_sel_folder_tlt">انتخاب پوشه</string>
+    <string name="mnu_backup_send">ذخیره سازی و ارسال</string>
+    <string name="mnu_restore">بازیابی</string>
+    <string name="act_save_send_tlt">ذخیره و ارسال</string>
+    <string name="saveSendAction">ذخیره سازی و ارسال</string>
+    <string name="strHintBackupSend">این قسمت جهت پشتیبان گیری از اطلاعات برروی گوشی موبایل و ارسال آن به ایمیل، فضاهای ابری یا سایر دستگاهها طراحی شده است. به طور مثال می توانید نسخه پشتیبان را برای خود ایمیل نمایید، آنرا برروی درآپ باکس قرار دهید یا از طریق تلگرام به گوشی دیگری منتقل نمایید.</string>
+    <string name="restore">بازیابی</string>
+    <string name="strSureToLoad">اطلاعات فعلی حذف میشوند و با اطلاعات انتخاب شده جایگزین میشوند.\nآیا ادامه می دهید؟</string>
+    <string name="act_restore_tlt">بازیابی</string>
+    <string name="bnk_ansar">انصار</string>
+    <string name="bnk_ayandeh">آینده</string>
+    <string name="bnk_def">سایر بانکها</string>
+    <string name="bnk_dey">دی</string>
+    <string name="bnk_eghtesad_novin">اقتصاد نوین</string>
+    <string name="bnk_gadeshgari">گردشگری</string>
+    <string name="bnk_gharzolhassaneh_mehreiran">قرض الحسنه مهر ایران</string>
+    <string name="bnk_hekmat_iranian">حکمت ایرانیان</string>
+    <string name="bnk_iran_venezuela">ایران ونزوئلا</string>
+    <string name="bnk_iranzamin">ایران زمین</string>
+    <string name="bnk_keshavarzi">کشاورزی</string>
+    <string name="bnk_maskan">مسکن</string>
+    <string name="bnk_mehre_eghtesad">مهر اقتصاد</string>
+    <string name="bnk_parsian">پارسیان</string>
+    <string name="bnk_passargad">پاسارگاد</string>
+    <string name="bnk_post">پست</string>
+    <string name="bnk_refah">رفاه</string>
+    <string name="bnk_saderat">صادرات</string>
+    <string name="bnk_saman">سامان</string>
+    <string name="bnk_sanat_madan">صنعت و معدن</string>
+    <string name="bnk_sarmayeh">سرمایه</string>
+    <string name="bnk_sepah">سپه</string>
+    <string name="bnk_sina">سینا</string>
+    <string name="bnk_tejarat">تجارت</string>
+    <string name="mnu_dell_all">حذف تمامی اطلاعات</string>
+    <string name="dellDesc">در صورت ادامه دادن اطلاعات به طور کامل حذف می شوند. برای حذف کردن کامل اطلاعات ابتدا کلمه عبور «14526» را در جعبه ذیل وارد نمایید، سپس دکمه «حذف کامل اطلاعات» را بفشارید.</string>
+    <string name="pass">کلمه عبور</string>
+    <string name="wrongPass">کلمه عبور صحیح نمی باشد</string>
+    <string name="dellAction">حذف کامل اطلاعات</string>
+    <string name="all_data_will_del">تمامی اطلاعات به طور کامل حذف خواهند شد.\nآیا ادامه میدهید؟</string>
+    <string name="dellSucc">عملیات حذف با موفقیت به پایان رسید</string>
+    <string name="dellUnsucc">خطا در عملیات حذف</string>
+    <string name="act_dell_all_tlt">حذف کامل</string>
+    <string name="select_logo">انتخاب لوگو</string>
+    <string name="date_separator">/</string>
+    <string name="wrongMonth">ماه وارد شده صحیح نمیباشد</string>
+    <string name="wrongYear">سال وارد شده صحیح نمیباشد</string>
+    <string name="wrongDate">تاریخ وارد شده صحیح نمیباشد</string>
+
+</resources>

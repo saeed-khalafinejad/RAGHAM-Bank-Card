@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp">
+
+    <org.kasabeh.raghamcardbank.ui_components.FontEdit
+        android:id="@+id/edtSmsTxt"
+        android:layout_width="match_parent"
+        android:lines="10"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:focusable="false"
+        android:editable="false"
+        android:layout_margin="5dp"
+        android:background="@drawable/edt_mess_body"
+        android:layout_alignParentTop="true"
+        android:inputType="textMultiLine"/>
+
+    <ScrollView
+        android:layout_below="@+id/edtSmsTxt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView android:id="@+id/dummy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:visibility="invisible" />
+
+            <CheckBox
+                android:id="@+id/chkCardNO"
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cardNO"/>
+
+            <CheckBox
+                android:id="@+id/chkBank"
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/dummy"
+                android:text="@string/bankName"/>
+
+            <CheckBox
+                android:id="@+id/chkAccountOwner"
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/chkCardNO"
+                android:text="@string/ownerName"/>
+
+            <CheckBox
+                android:id="@+id/chkCVV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/dummy"
+                android:layout_below="@+id/chkBank"
+                android:text="@string/CVV"/>
+
+            <CheckBox
+                android:id="@+id/chkExpire"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/chkCVV"
+                android:text="@string/expirationDate"/>
+
+            <CheckBox
+                android:id="@+id/chkDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/dummy"
+                android:layout_below="@+id/chkCVV"
+                android:text="@string/desc"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

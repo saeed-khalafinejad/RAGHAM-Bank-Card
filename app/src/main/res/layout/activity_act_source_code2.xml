@@ -1,0 +1,31 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fab_margin"
+            android:drawableTop="@drawable/download"
+            android:text="@string/download_source_code"
+            style="@style/ActionBtn"
+            android:layout_gravity="center_horizontal" />
+
+
+        <org.kasabeh.raghamcardbank.ui_components.FntTxtView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/large_text"
+            android:textSize="@dimen/textFontSizeSamll"
+            android:paddingBottom="10dp"/>
+
+    </LinearLayout>
+</ScrollView>
